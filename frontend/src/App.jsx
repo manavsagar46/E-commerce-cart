@@ -90,7 +90,7 @@ function App() {
           Your Cart
         </h2>
         <h2 className="text-2xl font-bold mb-4">User123</h2>
-        <br />
+        <hr />
         {cartTotal ? (
           <div className="space-y-2">
             <p>Subtotal: ₹{cartTotal.subtotal.toFixed(2)}</p>
