@@ -89,6 +89,7 @@ function App() {
         <h2 className="text-2xl font-bold mb-4 text-center">
           Your Cart
         </h2>
+        <h3>Username : User123</h3>
 
         {cartTotal ? (
           <div className="space-y-2">
